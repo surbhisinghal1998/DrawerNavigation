@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:title="First"
+            />
+        <item
+            android:id="@+id/item2"
+            android:title="second"
+            />
+        <item
+            android:title="Third"
+            android:id="@+id/item3"/>
+
+    </group>
+
+    <item android:title="SUB ITEMS">
+        <menu>
+    <group>
+        <item android:title="subtitle1"
+            android:id="@+id/Subfirst" />
+        <item android:title="subtitle2"
+            android:id="@+id/Subsecond" />
+        <item android:title="subtitle3"
+            android:id="@+id/Subthird" />
+    </group>
+        </menu>
+
+    </item>
+</menu>
+
+
+
+
+
